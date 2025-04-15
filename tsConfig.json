@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",                     // Or higher
+      "module": "commonjs",                   // Needed for Node.js
+      "moduleResolution": "node",             // Resolve modules like Node.js
+      "experimentalDecorators": true,         // Enable experimental decorators
+      "emitDecoratorMetadata": true,          // Emit metadata for decorators
+      "strict": false,                         // Enable strict mode for more safety
+      "esModuleInterop": true,                // For compatibility with commonjs and esm
+      "skipLibCheck": true,                   // Skip library check
+      "outDir": "./dist",                     // Output directory for compiled JS
+      "resolveJsonModule": true
+    },
+    "include": ["src/**/*"],                    // Include all TypeScript files in src
+    "exclude": ["node_modules"]                 // Exclude node_modules
+  }
+  
